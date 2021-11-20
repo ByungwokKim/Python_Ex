@@ -1,7 +1,6 @@
 import turtle as t
 import random
 
-
 score = 0
 playing=False   #ta 적 거북이 1,2,3
 ta = t.Turtle()
@@ -120,9 +119,4 @@ t.listen()
 
 message("방향키 이동 먹이는 노란색!","[스페이스바 누르면 시작]")  # 시작 메세지
 
-
-
-
-
-              
 
