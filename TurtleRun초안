@@ -1,0 +1,275 @@
+<font class="papago-parent"><font class="papago-source" style="display:none;">import turtle as t
+</font>거북이를 t로 수입하다
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">import random
+</font>무작위로 수입하다
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
+
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">score = 0
+</font>점수 = 0
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">playing=False   #ta 적 거북이 1,2,3
+</font>play=false #ta 적이 이 1,2,3
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">ta = t.Turtle()
+</font>ta = t.터틀()
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">ta.shape("turtle")
+</font>ta.shape("turtle")
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">ta.color("red")
+</font>ta.coloraded")
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">ta.speed(9)
+</font>ta. speed(9)
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">ta.up()
+</font>ta.up()
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">ta.goto(0,200)
+</font>ta.goto(0,200)
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
+
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">ta1 = t.</font>ta1 = t.</font><font class="papago-parent"><font class="papago-source" style="display:none;">Turtle()
+</font>거북()
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">ta1.shape("turtle")
+</font>ta1.1987")
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">ta1.color("pink")
+</font>ta1. color("pink")
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">ta1.speed(9)
+</font>ta1.속도(9)
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">ta1.up()
+</font>ta1.up()
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">ta1.goto(-200,0)
+</font>ta1.gotoo200,0)
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
+
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">ta2 = t.</font>ta2 = t.</font><font class="papago-parent"><font class="papago-source" style="display:none;">Turtle()
+</font>거북()
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">ta2.shape("turtle")
+</font>ta2.shape("turtle"")
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">ta2.color("orange")
+</font>ta2.color("orange")
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">ta2.speed(9)
+</font>ta2.speed(9)
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">ta2.up()
+</font>ta2.up()
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">ta2.goto(-150,150)
+</font>ta2.goto(-150,150)
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
+
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
+
+</font><font class="papago-parent"><font class="papago-source" style="display:none;"># 스코어 먹이
+</font># 스코어 먹이
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">tm = t.Turtle()
+</font>tm = t.터틀()
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">tm.shape("circle")
+</font>tm.shape("circle")
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">tm.shapesize(0.6)
+</font>tm.csize(0.6)
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">tm.color("yellow")
+</font>tm.color("nellow")
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">tm.speed(0) 
+</font>tm.speed(0) 
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">tm.up()
+</font>tm.up()
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">tm.goto(0,-200)
+</font>tm.goto(0,-200)
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
+
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">def turn_right():</font>turn_right()를 디프한다.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
+
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">      t.seth(0)
+</font>      t.csv(0)
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">def turn_left():</font>turn_left():</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
+
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">      t.seth(180)
+</font>      t.190(180)
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">def turn_up():
+</font>turn_up()을 디프한다.
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">      t.seth(90)
+</font>      t.190(90)
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">def turn_down():</font>def turn_down():</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
+
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">      t.seth(270)
+</font>      t.properties(권장)
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
+
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">def start():</font>def start():</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
+
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">      global playing    #전체 사용을 위해 글로벌
+</font>      global playing    #전체 사용을 위해 글로벌
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">      if playing ==False:  #게임 대기중이면
+</font>      if playing ==False:  #게임 대기중이면
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">            playing=</font>            놀기=</font><font class="papago-parent"><font class="papago-source" style="display:none;">True
+</font>진실의
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">            t.clear()          #메세지 지워
+</font>            t.clear()          #메세지 지워
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">            play()      
+</font>            놀이를 하다      
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
+
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">def play():</font>재생하지 않음():</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
+
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">      global score
+</font>      글로벌 스코어
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">      global playing
+</font>      글로벌 플레이
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">      global ta1
+</font>      글로벌 ta1
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">      
+</font>      
+      
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">      t.forward(10)
+</font>      t.forward(10)
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">      if random.randint(1,3)==3:    #적이 따라 올 확률
+</font>      if random.randint(1,3)==3:    #적이 따라 올 확률
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">            ang = ta.towards(t.pos())       
+</font>            ang = ta.posit(t.positive)       
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">            ta.seth(ang)
+</font>            ta.cn(ang)
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">      speed=score+5   # 점수가 높아질수록 스피드 올려서 난이도 업
+</font>      speed=score+5   # 점수가 높아질수록 스피드 올려서 난이도 업
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
+
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">      if random.randint(1,2)==2:</font>      임의의 경우.randint(1,2)==2:</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
+
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">            ang1 = ta1.towards(t.pos())
+</font>            ang1 = ta1.1987(t.pos())
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">            ta1.seth(ang1)
+</font>            ta1.1987(ang1)
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
+
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">      if random.randint(1,2)==2:</font>      임의의 경우.randint(1,2)==2:</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
+
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">            ang2 = ta2.towards(t.pos())
+</font>            ang2 = ta2.pos(t.pospos)
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">            ta2.seth(ang2)
+</font>            ta2.1987(ang2)
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">            
+</font>            
+            
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">      if speed >15: 
+</font>      속도가 15를 초과할 경우: 
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">            speed=15  #적과 나의 속도는 15가 최대
+</font>            speed=15  #적과 나의 속도는 15가 최대
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">      ta.forward(speed-2) # 적 속도 낮추기 
+</font>      ta.forward(speed-2) # 적 속도 낮추기 
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">      ta1.forward(speed)
+</font>      ta1.전방(속도)
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">      ta2.</font>      ta2.</font><font class="papago-parent"><font class="papago-source" style="display:none;">forward(speed-1)
+</font>전진(속도 1)
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">      t.forward(speed) 
+</font>      t.전방(속도) 
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
+
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">      if t.distance(ta)<12:         #적과 만나면 -죽음-
+</font>      if t.distance(ta)<12:         #적과 만나면 -죽음-
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">            text="Score : "+str(score)
+</font>            text="점수: "+str(점수)
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">            message("게임 오버",text)
+</font>            message("게임 오버",text)
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">            playing=False           #게임이 종료될 수 있도록 플레이어 폴스
+</font>            playing=False           #게임이 종료될 수 있도록 플레이어 폴스
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">            score=0
+</font>            점수 = 0
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
+
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">      if t.distance(tm)<12:         #나와 먹이를 먹은 거리가 12 이내면 스코어 표시
+</font>      if t.distance(tm)<12:         #나와 먹이를 먹은 거리가 12 이내면 스코어 표시
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">            score +=1
+</font>            +=1점을 얻다
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">            t.write(score)
+</font>            t.write(잘못)
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">            star_x=random.randint(-230,230) #랜덤으로 보낼 범위 
+</font>            star_x=random.randint(-230,230) #랜덤으로 보낼 범위 
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">            star_y=random.randint(-230,230)
+</font>            star_y=snot.randint(-230,230)
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">            tm.goto(star_x,star_y) #먹이를 임의의 장소로 보냄
+</font>            tm.goto(star_x,star_y) #먹이를 임의의 장소로 보냄
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">            
+</font>            
+            
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">      if playing:       #게임이 계속 이어가게 함
+</font>      if playing:       #게임이 계속 이어가게 함
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">            t.ontimer(play,100)
+</font>            t.ontimer(재생,100)
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
+
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">def message(m1,m2):</font>메시지를 디프(m1,m2):</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
+
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">      t.clear()
+</font>      T.clear()
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">      t.goto(0,-150)
+</font>      t.goto(0,-150)
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">      t.write(m1,False,"center",(' ',15))
+</font>      t.write(m1,False"중앙",(',15)
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">      t.goto(0,-100)
+</font>      t.goto(0,-100)
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">      t.write(m2,False,"center",(' ',15))
+</font>      t.write(m2,False"중앙",(',15)
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">      t.home()
+</font>      T.홈메이드
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
+
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">t.title("도망치기 게임")      # 라벨 명
+</font>t.title("도망치기 게임")      # 라벨 명
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
+
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">t.setup(500,500)              # 겜 사이즈 
+</font>t.setup(500,500)              # 겜 사이즈 
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">t.bgcolor("black")
+</font>t.bgcolor("black")
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">t.shape('turtle')             # 나는 거북이
+</font>t.shape('turtle')             # 나는 거북이
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">t.shapesize(1.5)
+</font>t.csize(1.5)
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">t.speed(9)                    # 내 속도는 9부터 시작
+</font>t.speed(9)                    # 내 속도는 9부터 시작
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">t.up()
+</font>t.up()
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">t.color("white")
+</font>t.color("white")
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
+
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">t.onkeypress(turn_right,"Right") #키 입력 받기
+</font>t.onkeypress(턴키프레스(turn_right, "right") #now 입력력력기기기기기기
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">t.onkeypress(turn_left,"Left")
+</font>t.onkeypress(턴_왼쪽 "왼쪽")
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">t.onkeypress(turn_up,"Up")
+</font>t.onkeypress(턴_up "Up")
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">t.onkeypress(turn_down,"Down")
+</font>t.onkeypress(턴_down,"Down")
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">t.onkeypress(start,"space") #스페이스바는 소문자
+</font>t.onkeypress(start,"space") #스페이스바는 소문자
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">t.listen()
+</font>t.restency
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
+
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">message("방향키 이동 먹이는 노란색!","[스페이스바 누르면 시작]")  # 시작 메세지
+</font>message("방향키 이동 먹이는 노란색!","[스페이스바 누르면 시작]")  # 시작 메세지
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
+
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
+
+</font>
